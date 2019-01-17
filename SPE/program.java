@@ -26,6 +26,9 @@ public class Calculator {
                 result = first - second;
                 break;
 
+            case '*':
+                result = first * second;
+                break;
 
             // operator doesn't match any case constant (+, -, *, /)
             default:
